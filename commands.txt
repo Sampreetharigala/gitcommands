@@ -1,0 +1,26 @@
+git commands :
+
+git status - to check the status 
+git status -s c1 : to check status in staging area
+git status -s c2 :to check the stutus in the working directory
+git config --global user.name 'enter username'
+git config --global user.email 'email address'
+git config --global --list : to check whether the userid and user email is linked or not
+touch : just to create file in the git 
+echo : to create file and add content of one line in the file 
+vim :to create file and userd as editor
+gid add : to move the files from working director to satging area
+git rm --cached filename :to remove files from the staging area
+git rm -r --cached . :to remove all the files from the staging area
+rm :to remove files from the git
+cat : to view the content in the git files
+mv oldfilename newfilename 
+git commit -m 'message'   : to move the files from the staging area to the local repository
+git  push : to maove the files from the local repo to the git repo 
+
+
+
+to link git repo with local repo : git remote add origin http://
+to check whether the both are linked we use :    git remote -v
+rm -rf .git   : to git out of git file in the working directory
+
